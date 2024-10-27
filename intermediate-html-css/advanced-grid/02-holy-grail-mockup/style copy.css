@@ -1,18 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
-}
-
-li {
-  list-style-type: none;
 }
 
 .container {
   text-align: center;
-  display: grid;
-  gap: 4px;
-  grid-template-columns: 1fr 4fr;
 }
 
 .container div {
@@ -25,16 +17,6 @@ li {
 
 .header {
   background-color: #393f4d;
-  grid-column: 1 / 3;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  align-items: center;
-}
-
-.menu ul {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 5px;
 }
 
 .menu ul,
@@ -44,9 +26,6 @@ li {
 
 .sidebar {
   background-color: #C50208;
-  grid-row: 2 / 4;
-  display: grid;
-  gap: 50px;
 }
 
 .sidebar .photo {
@@ -74,23 +53,8 @@ li {
   text-transform: uppercase;
 }
 
-.nav ul {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 5px;
-}
-
-.side-content,
-.photo {
-  display: grid;
-  align-items: center;
-}
-
 .article {
   background-color: #bccbde;
-  display: grid;
-  gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .article p {
@@ -104,7 +68,6 @@ li {
   background-color: #FFFFFF;
   color: black;
   text-align: center;
-  height: 200px;
 }
 
 .card p {
@@ -120,7 +83,6 @@ li {
 
 .footer {
   background-color: #393f4d;
-  grid-column: 1 / 3;
 }
 
 .footer p {
